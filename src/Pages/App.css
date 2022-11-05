@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Inter';
-  src: local('Rajdhani'), url(./fonts/Inter/Inter-VariableFont_slnt\,wght.ttf) format('truetype');
+  src: local('Rajdhani'), url(../fonts/Inter/Inter-VariableFont_slnt\,wght.ttf) format('truetype');
 }
 
 .App {
@@ -222,6 +222,38 @@
   text-decoration: none;
 }
 
+#contact {
+  align-items: center;
+  font-family: Inter;
+  font-size: 500;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  height: 76px;
+  justify-content: center;
+  background: rgb(234, 236, 240);
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(234, 236, 240);
+  border-image: initial;
+  border-radius: 8px;
+  margin: 20px 90px;
+  padding: 24px 32px;
+}
+
+#contact a {
+  color: rgb(16, 24, 40);
+  font-family: Inter;
+  font-size: 500;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: center;
+  width: 100%;
+  text-decoration: none;
+}
+
 #slack-link img {
   width: 22px;
 }
@@ -389,6 +421,24 @@
   margin: 20px 13px;
   padding: 24px 32px;
 }
+#contact {
+  align-items: center;
+  font-family: Inter;
+  font-size: 500;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  height: 76px;
+  justify-content: center;
+  background: rgb(234, 236, 240);
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(234, 236, 240);
+  border-image: initial;
+  border-radius: 8px;
+  margin: 20px 13px;
+  padding: 24px 32px;
+}
 sub{
   font-size: 10px;
 }
@@ -467,6 +517,24 @@ sub{
   padding: 24px 32px;
 }
 #book__design {
+  align-items: center;
+  font-family: Inter;
+  font-size: 500;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  height: 76px;
+  justify-content: center;
+  background: rgb(234, 236, 240);
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(234, 236, 240);
+  border-image: initial;
+  border-radius: 8px;
+  margin: 20px 13px;
+  padding: 24px 32px;
+}
+#contact {
   align-items: center;
   font-family: Inter;
   font-size: 500;

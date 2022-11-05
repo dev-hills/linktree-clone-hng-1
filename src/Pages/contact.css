@@ -1,0 +1,282 @@
+.heading {
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 600;
+    width: 448px;
+    height: 44px;
+    margin-top: 118px;
+    margin-left: 350px;
+    color: #101828;
+}
+
+.subtext {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 20px;
+    color: #475467;
+    margin-left: 350px;
+    margin-top: 10px;
+}
+
+label {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;   
+}
+
+.firstname {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    width: 348px;
+    height: 44px;
+}
+
+.firstname input {
+    padding: 10px 14px 10px 14px;
+    border-radius: 8px;
+    border-color: #D0D5DD;
+    box-shadow: none;
+}
+
+.lastname {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    width: 348px;
+    height: 44px;
+}
+
+.lastname input {
+    padding: 10px 14px 10px 14px;
+    border-radius: 8px;
+    border-color: #D0D5DD;
+    box-shadow: none;
+}
+
+.input, .input_email {
+    display: flex;
+    flex-direction: column;
+    margin-left: 350px;
+    margin-top: 30px;
+    width: 720px;
+    height: 44px;
+}
+
+.input_email input {
+    padding: 10px 14px 10px 14px;
+    border-radius: 8px; 
+    border-color: #D0D5DD;
+    box-shadow: none;
+}
+
+textarea {
+    height: 132px;
+    padding: 22px 14px 120px 14px;
+    border-radius: 8px;
+    overflow: hidden;
+    border-color: #D0D5DD;
+    box-shadow: none;
+}
+
+.checkbox {
+    display: flex;
+    flex-direction: row;
+    margin-left: 350px;
+    margin-top: 130px;
+    
+}
+
+input [type ="checkbox"] {
+    width: 20px;
+    height: 20px;
+}
+
+#btn__submit {
+    background-color: #1570EF;
+    color: white;
+    font-family: Inter; 
+    width: 720px;
+    height: 48px;
+    border-radius: 8px;
+    margin-left: 350px;
+    margin-top: 20px;
+    outline: none;
+    border: none;
+}
+
+/* form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+} */
+
+input[type="text"] {
+    padding: 10px 14px 10px 14px;
+    border-radius: 8px;
+    border-color: #D0D5DD;
+    box-shadow: none;
+}
+
+.name {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 350px;  
+    gap: 22px;
+}
+
+#footer #zuri-internship img{
+  width: 150px;
+}
+
+#footer {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20rem;
+    text-align: left;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(244, 245, 247);
+    padding: 135px 0;
+}
+
+#footer div{
+  margin: 10px;
+}
+
+.footer-text {
+  color: rgb(102, 112, 133);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+@media screen and (max-width: 1000px) {
+    #footer{
+    align-items: flex-start ;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0px;
+    text-align: left;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(244, 245, 247);
+    padding: 24px 0;
+}
+
+form {
+    margin-left: -200px;
+}
+
+.heading, .subtext {
+    margin-left: 145px;
+}
+} 
+
+@media screen and (max-width: 376px) {
+    .heading {
+        font-size: 36px;
+        margin-left: 15px;
+    }
+
+    .subtext {
+        font-size: 18px;
+        margin-left: 15px;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .name {
+        display: flex;
+        flex-direction: column;
+        margin-left: 239px;
+    }
+
+    .input, .input_email {
+        margin-left: 217px;
+        width: 535px;
+    }
+
+    input[type="text"] {
+        width: 502px;
+    }
+
+    .checkbox {
+        display: flex;
+        flex-direction: row;
+        margin-top: 139px;
+        margin-left: 208px;
+    }
+
+    .checkbox div {
+
+    }
+
+    #btn__submit {
+        width: 525px;
+        margin-left: 211px;
+    }
+}
+
+/* @media screen and (min-width: 376px) {
+       .heading {
+        font-size: 36px;
+        margin-left: 15px;
+    }
+
+    .subtext {
+        font-size: 18px;
+        margin-left: 15px;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .name {
+        display: flex;
+        flex-direction: column;
+        margin-left: 239px;
+    }
+
+    .input, .input_email {
+        margin-left: 217px;
+        width: 535px;
+    }
+
+    input[type="text"] {
+        width: 502px;
+    }
+
+    .checkbox {
+        display: flex;
+        flex-direction: row;
+        margin-top: 139px;
+        margin-left: 208px;
+    }
+
+    .checkbox div {
+
+    }
+
+    #btn__submit {
+        width: 525px;
+        margin-left: 211px;
+    }
+}  */
